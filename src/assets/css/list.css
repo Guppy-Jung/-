@@ -1,0 +1,63 @@
+/* 列表页专有的css文件 */
+@font-face {
+    font-family: 'iconfont';  /* Project id 2580628 */
+    src: url('//at.alicdn.com/t/font_2580628_b0fuf6alpb5.woff2?t=1622386249138') format('woff2'),
+         url('//at.alicdn.com/t/font_2580628_b0fuf6alpb5.woff?t=1622386249138') format('woff'),
+         url('//at.alicdn.com/t/font_2580628_b0fuf6alpb5.ttf?t=1622386249138') format('truetype');
+  }
+.nav {
+    overflow:hidden;
+}
+.sk {
+    position:absolute;
+    left:190px;
+    top:40px;
+    border-left:1px solid #c81523;
+    padding:3px 0 0 14px;
+}
+.sk_list {
+    float:left;
+}
+.sk_list li {
+    float:left;
+}
+.sk_list li a {
+    display:block;
+    line-height: 47px;
+    padding:0 30px;
+    font-size:16px;
+    font-weight:700px;
+    color:#000;
+}
+.sk_con {
+    float:left;
+}
+.sk_con ul li {
+    float:left; 
+}
+.sk_con li a {
+    display:block;
+    line-height: 49px;
+    padding:0 20px;
+    font-size:14px;
+    /* font-weight:700px; */
+    /* color:#000; */
+}
+.sk_con ul li:last-child a::after {
+    content:'\e61a';
+    font-family: 'iconfont';
+}
+.sk_bd ul li {
+    overflow:hidden;
+    width: 290px;
+    height: 460px;
+    border:1px solid transparent;
+    float:left;
+    margin-right:13px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right:0;
+}
+.sk_bd ul li:hover {
+    border:1px solid #c81523;
+}
